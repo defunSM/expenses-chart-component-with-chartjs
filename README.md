@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/expenseschartcomponentwithchartjs-DXnrxNI-UZ)
-- Live Site URL: [Add live site URL here](https://zippy-zuccutto-e6013f.netlify.app/)
+- Solution URL: [frontendmentor](https://www.frontendmentor.io/solutions/expenseschartcomponentwithchartjs-DXnrxNI-UZ)
+- Live Site URL: [expenses-chart-component](https://zippy-zuccutto-e6013f.netlify.app/)
 
 ### Built with
 
