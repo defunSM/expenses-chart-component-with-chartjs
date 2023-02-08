@@ -37,8 +37,61 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  min-width: 50vh;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+}
+
+@media (max-width: 500px) {
+  .top-container {
+    width: 300px;
+    padding: 1rem;
+    margin: 0px;
+
+  }
+
+  .bottom-container {
+    width: 300px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .chart {
+    width: 300px !important;
+  }
+
+  .balance {
+    margin-right: 1rem !important;
+    margin: 0px;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px !important;
+  }
+
+  .spending {
+    font-size: 1.4rem !important;
+  }
+
+  .total {
+    font-size: 0.8rem;
+  }
+
+  .total-balance {
+    font-size: 2rem !important;
+    margin-right: 2rem;
+  }
+
+  .from-last-month {
+    font-size: 0.8rem !important;
+    margin: 0px !important;
+    margin-top: 1.3rem !important;
+  }
+
 }
 
 .bottom-container {
@@ -48,6 +101,9 @@ footer {
   padding: 1rem;
   margin-top: 1rem;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .balance {
@@ -69,11 +125,13 @@ footer {
 
 .stats {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   color: hsl(28, 10%, 53%);
   font-weight: 700;
-  margin-left: 2rem;
   margin-top: 1rem;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
 }
 
 .from-last-month {
@@ -83,6 +141,11 @@ footer {
   font-size: 1rem;
   text-align: bottom;
   flex-direction: column;
+}
+
+.chart {
+  align-self: center;
+  width: 400px;
 }
 
 .total-balance {
